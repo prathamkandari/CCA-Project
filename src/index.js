@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import navbar from './Components/Navbar/navbar'
-import loginpage from './Components/loginpage/loginpage'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
