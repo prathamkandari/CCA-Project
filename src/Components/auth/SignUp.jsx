@@ -1,6 +1,7 @@
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "../../firebase-config";
+import './SignIn.css';
 
 const SignUp = () => {
     const [email, setEmail] = useState("");
@@ -11,11 +12,13 @@ const SignUp = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 console.log(userCredential);
+                
             })
             .catch((error) => {
                 console.log(error);
             });
     };
+    
 
     return (
         <div className="sign-in-container">
