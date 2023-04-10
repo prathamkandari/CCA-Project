@@ -1,9 +1,11 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
-import { Link } from "react-router-dom";
 import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { auth } from "../../firebase-config";
+import { Link } from "react-router-dom";
 import './SignIn.css';
-import './SignUp.jsx';
+// import SignUp from './SignUp.jsx';
+// import SignUp from './goToSignUp';
 
 const SignIn = () => {
     const [email, setEmail] = useState("");
@@ -19,6 +21,7 @@ const SignIn = () => {
                 console.log(error);
             });
     };
+    
 
     return (
         <div className="sign-in-container">
@@ -37,7 +40,7 @@ const SignIn = () => {
                     onChange={(e) => setPassword(e.target.value)}
                 ></input>
                 <button type="submit">Log In</button>
-                <Link to="/SignUp"> Register Here </Link>
+                <Link to="/signup"> Register Here </Link>
             </form>
         </div>
     );

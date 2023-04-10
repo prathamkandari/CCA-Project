@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Sidebar from './Components/sidebar/sidebar.jsx';
 import Dashboard from './pages/Dashboard.jsx';
 import About from './pages/About.jsx';
-import Analytics from './pages/Analytics.jsx';
+import Analytics from './pages/Maps.jsx';
 import Comment from './pages/Comment.jsx';
 import Product from './pages/Product.jsx';
 import ProductList from './pages/ProductList.jsx';
