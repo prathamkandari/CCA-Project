@@ -5,7 +5,7 @@ import { auth } from "../../firebase-config";
 import { Link } from "react-router-dom";
 import './SignIn.css';
 // import SignUp from './SignUp.jsx';
-// import SignUp from './goToSignUp';
+// import SignUp from '../auth/SignUp';
 
 const SignIn = () => {
     const [email, setEmail] = useState("");
@@ -40,7 +40,7 @@ const SignIn = () => {
                     onChange={(e) => setPassword(e.target.value)}
                 ></input>
                 <button type="submit">Log In</button>
-                <Link to="/signup"> Register Here </Link>
+                <Link to="/SignUp"> Register Here </Link>
             </form>
         </div>
     );

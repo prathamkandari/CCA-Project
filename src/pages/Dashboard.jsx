@@ -1,21 +1,23 @@
-import React from 'react'
-import './material-dashboard.css'
-import './material-dashboard.css.map'
-import './material-dashboard.min.css'
-
+import React from 'react';
+import './material-dashboard.css';
+import './material-dashboard.css.map';
+import './material-dashboard.min.css';
+import image1 from'../assets/img/1 (2).jpg';
+import image2 from'../assets/img/2.jpg';
+import image3 from'../assets/img/3.jpg';
 const Dashboard = () => {
     return (
-        // <div>Dashboard</div>
+        // <div>Dashboard</div> 
         <main className="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
             <nav className="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
                 <div className="container-fluid py-1 px-3">
                     <nav aria-label="breadcrumb">
-                        <h6 className="font-weight-bolder mb-0">Dashboard</h6>
+                        <h6 className="font-weight-bolder mb-0">Designed by Pratham Kandari</h6>
                     </nav>
                     <div className="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                         <div className="ms-md-auto pe-md-3 d-flex align-items-center">
                             <div className="input-group input-group-outline">
-                                <label className="form-label">Search Product</label>
+                                <label className="form-label">Search</label>
                                 <input type="text" className="form-control"/>
                             </div>
                         </div>
@@ -66,15 +68,14 @@ const Dashboard = () => {
                 <div className="row row-cols-3 g-4">
                     <div className="col">
                         <div className="card h-100">
-                            <img src="https://via.placeholder.com/300x200.png" className="card-img-top" alt="..." />
+                            <img src={image1} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <h5 className="card-title">Cyber Crime Police Station, Uttarakhand Police</h5>
+                                    <p className="card-text">Uttarakhand STF's Kumaon Cyber ​​Station police arrested the mastermind of cyber fraud worth Rs 1.85 crore, a foreign national of Nigerian origin from Delhi.</p>
                                 </div>
                                 <div className="card-footer bg-white border-0">
                                     <div className="btn-group">
-                                        <a href="#" className="btn btn-sm btn-outline-secondary">button</a>
-                                        <a href="#" className="btn btn-sm btn-outline-secondary">button</a>
+                                        <a href="#" className="btn btn-sm btn-outline-secondary">View More</a>
                                     </div>
                                 </div>
                         </div>
@@ -82,30 +83,28 @@ const Dashboard = () => {
 
                     <div className="col">
                         <div className="card h-100">
-                            <img src="https://via.placeholder.com/300x200.png" className="card-img-top" alt="..." />
+                            <img src={image3} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
+                                    <h5 className="card-title">Cyber Crime Police Station, Uttarakhand Police</h5>
                                     <p className="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                                 </div>
                                 <div className="card-footer bg-white border-0">
                                     <div className="btn-group">
-                                        <a href="#" className="btn btn-sm btn-outline-secondary">button</a>
-                                        <a href="#" className="btn btn-sm btn-outline-secondary">button</a>
+                                        <a href="#" className="btn btn-sm btn-outline-secondary">View More</a>
                                     </div>
                                 </div>
                         </div>
                     </div>
                     <div className="col">
                         <div className="card h-100">
-                            <img src="https://via.placeholder.com/300x200.png" className="card-img-top" alt="..." />
+                            <img src={image2} className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
+                                    <h5 className="card-title">Cyber Crime Police Station, Uttarakhand Police</h5>
                                     <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                                 </div>
                                 <div className="card-footer bg-white border-0">
                                     <div className="btn-group">
-                                        <a href="#" className="btn btn-sm btn-outline-secondary">button</a>
-                                        <a href="#" className="btn btn-sm btn-outline-secondary">button</a>
+                                        <a href="#" className="btn btn-sm btn-outline-secondary">View More</a>
                                     </div>
                                 </div>
                         </div>

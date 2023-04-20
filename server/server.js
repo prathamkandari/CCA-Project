@@ -17,7 +17,6 @@ const buildpath = path.join(_dirname , "../build");
 console.log(buildpath)
 app.use(express.static(buildpath)) 
 app.get("/*", function(req, res){
-    console.log("here");
     res.sendFile(
         path.join(__dirname,"../build/index.html"),
         

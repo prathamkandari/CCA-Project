@@ -21,14 +21,15 @@ const App = () => {
     <AuthDetails/>
       <Sidebar>
         <Routes>
+          
           <Route path="/" element={<Dashboard />} />
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/Signin" element={<SignIn />} />
           <Route path="/about" element={<About />} />
           <Route path="/comment" element={<Comment />} />
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/product" element={<Product />} />
           <Route path="/productList" element={<ProductList />} />
-          <Route path="/signin" element={<SignIn />} />
+          {/* <Route path="/" element={<SignIn />} /> */}
 
         </Routes>
       </Sidebar>
